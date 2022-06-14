@@ -1,0 +1,26 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - SummerSlider (0.4.0)
+  - SwiftySound (1.2.0)
+
+DEPENDENCIES:
+  - Charts
+  - SummerSlider (~> 0.4.0)
+  - SwiftySound
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - SummerSlider
+    - SwiftySound
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  SummerSlider: 07bf9b1197c68c7f5d56384ce744c64977d0fc2d
+  SwiftySound: 9eb28bb14edb601b40027e44319e0ef8383f88bf
+
+PODFILE CHECKSUM: 7ac2c0a0124c46e04bd0bf840825c0cbc8f42654
+
+COCOAPODS: 1.10.0

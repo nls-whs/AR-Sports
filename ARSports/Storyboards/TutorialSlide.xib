@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TutorialSlide" customModule="ARSports" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSR-y2-fG7">
+                    <rect key="frame" x="53" y="1017" width="918" height="116"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Für das Training wird genügend Platz benötigt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPN-wf-I5K">
+                            <rect key="frame" x="86" y="19" width="352" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.5m x 1.5m sollten es mindestens sein" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="piP-gW-m7F">
+                            <rect key="frame" x="86" y="48" width="295" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vergewissern sie sich, dass das iPad sicher steht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kf-uu-feG">
+                            <rect key="frame" x="86" y="77" width="374" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klf-Gu-AxL">
+                            <rect key="frame" x="31" y="28" width="28" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                            <color key="textColor" white="0.0" alpha="0.75352112680000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="0.098591549299999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tutorial: Trainingsumgebung " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ED4-6r-ya4">
+                    <rect key="frame" x="52" y="546" width="387" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                    <color key="textColor" white="0.0" alpha="0.75352112680000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001-stretching" translatesAutoresizingMaskIntoConstraints="NO" id="m9T-3L-uDi">
+                    <rect key="frame" x="257.5" y="663" width="509" height="271"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="509" id="Dh3-wa-VJd"/>
+                        <constraint firstAttribute="height" constant="271" id="eFd-xm-DGd"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="FSR-y2-fG7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PgF-vX-2rc"/>
+                <constraint firstItem="FSR-y2-fG7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="53" id="Uhw-5O-ff3"/>
+                <constraint firstItem="FSR-y2-fG7" firstAttribute="top" secondItem="m9T-3L-uDi" secondAttribute="bottom" constant="83" id="Wka-Xl-y7h"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="FSR-y2-fG7" secondAttribute="bottom" constant="213" id="ePZ-8F-arU"/>
+                <constraint firstItem="FSR-y2-fG7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1017" id="oZB-mr-g1Z"/>
+                <constraint firstItem="FSR-y2-fG7" firstAttribute="centerX" secondItem="m9T-3L-uDi" secondAttribute="centerX" id="rKC-Hj-udM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="first" destination="IPN-wf-I5K" id="eWo-n4-8vl"/>
+                <outlet property="headline" destination="ED4-6r-ya4" id="M8j-es-85x"/>
+                <outlet property="imageView" destination="m9T-3L-uDi" id="fuy-Sq-kBE"/>
+                <outlet property="second" destination="piP-gW-m7F" id="mda-aR-ltl"/>
+                <outlet property="stepNumber" destination="klf-Gu-AxL" id="61e-B2-ogw"/>
+                <outlet property="third" destination="0Kf-uu-feG" id="Xfb-hh-NLf"/>
+            </connections>
+            <point key="canvasLocation" x="131.8359375" y="153.73352855051243"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="001-stretching" width="512" height="512"/>
+    </resources>
+</document>
